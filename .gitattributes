@@ -1,0 +1,5 @@
+# Set default to text and use 'auto' line ending conversion
+* text=auto
+
+# Optional: explicitly set all text files to have 'lf' line endings in the repository
+* text eol=lf

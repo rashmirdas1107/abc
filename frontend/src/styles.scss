@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+/* Removed all @import "..." lines for .css files */
+
+/* Global Styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* 4. Your custom SCSS variables and styles 
+   Keep your SCSS-specific code here:
+*/
+
+$primary-color: #1976d2;
+
+.navbar {
+    background-color: $primary-color !important;
+    padding: 1rem;
+    
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0 0.5rem;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

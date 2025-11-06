@@ -1,0 +1,18 @@
+<!-- <nav class="navbar">
+      <a routerLink="/auth/login">Login</a>
+      <a routerLink="/auth/register">Register</a>
+      |
+      <a routerLink="/admin/dashboard">Admin Dashboard (Protected)</a>
+      <a routerLink="/admin/users">Admin Users (Protected)</a>
+      |
+      <button *ngIf="!authService.isAuthenticated()" (click)="authService.login()">Simulate Login</button>
+      <button *ngIf="authService.isAuthenticated()" (click)="authService.logout()">Simulate Logout</button>
+    </nav>
+    <hr> -->
+    
+    <main>
+      <h1>Application Content</h1>
+      <router-outlet></router-outlet>
+    </main>
+    
+    <!-- <p>Current Auth Status: <b>{{ authService.isAuthenticated() ? 'Logged In' : 'Logged Out' }}</b></p> -->
